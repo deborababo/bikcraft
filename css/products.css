@@ -144,7 +144,7 @@ textarea::placeholder {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.data-email {
+.contact-quotation span:nth-of-type(2) {
   margin-bottom: 40px;
 }
 .contact-quotation ul {
