@@ -1,5 +1,5 @@
 .internal-products {
-  background: url(/img/bg-produtos.jpg);
+  background: url(/img/bg-produtos.jpg) no-repeat center;
   background-size: cover;
   border-radius: 5px;
 }
