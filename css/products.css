@@ -36,6 +36,7 @@
 }
 .product-info {
   background: #000;
+  border-radius: 5px;
 }
 .product-info p {
   color: #fff;
@@ -50,7 +51,6 @@
   font-size: 18px;
   line-height: 20px;
   font-weight: bold;
-
   float: left;
   width: 229px;
   height: 49px;
@@ -64,4 +64,100 @@
 
 .product-info ul li:nth-child(even) {
   margin-left: 2px;
+}
+/********************************* Quotation *****************************/
+.quotation {
+  background: #000;
+  width: 100%;
+  margin-top: 60px;
+  padding: 40px 0;
+}
+.quotation h2 {
+  color: #ffadad;
+}
+.quotation h2::after {
+  background: #ffadad;
+}
+.form {
+  padding-right: 60px;
+}
+.form label {
+  display: block;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 4px;
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  border: 4px solid #ffadad;
+  background: none;
+  color: #fff;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+input::placeholder {
+  color: white;
+}
+.form textarea {
+  display: block;
+  width: 100%;
+  height: 140px;
+  border: 4px solid #ffadad;
+  background: none;
+  color: #fff;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+textarea::placeholder {
+  color: white;
+}
+.form button {
+  padding: 7px 40px;
+  background: none;
+}
+
+.contact-quotation {
+  color: #fff;
+}
+
+.contact-quotation h3 {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #ffadad;
+  font-weight: bold;
+}
+.contact-quotation span {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.data-email {
+  margin-bottom: 40px;
+}
+.contact-quotation ul {
+  padding-right: 100px;
+}
+.contact-quotation ul li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+.contact-quotation ul li:nth-child(odd) {
+  background: #1d1d1d;
+}
+.contact-quotation p {
+  margin: 8px 0;
 }
