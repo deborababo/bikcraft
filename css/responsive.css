@@ -1,3 +1,12 @@
+@media only screen and (min-width: 960px) and (max-width: 1229px) {
+  #btn-next {
+    right: 250px;
+  }
+  #btn-prev {
+    left: 250px;
+  }
+}
+
 /********************* Tablet - 768px ***********************/
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   /******************************* Quality Home ***************************/
@@ -32,6 +41,12 @@
   }
   .product-info ul li {
     width: 181px;
+  }
+  #btn-next {
+    right: 50px;
+  }
+  #btn-prev {
+    left: 50px;
   }
 }
 
@@ -123,5 +138,9 @@
   .contact-form {
     padding-right: 0px;
     margin-bottom: 40px;
+  }
+  #btn-next,
+  #btn-prev {
+    display: none;
   }
 }

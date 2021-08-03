@@ -5,6 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
    <title>Bikcraft - Portfolio</title>
    <link rel="stylesheet" href="css/normalize.css">
    <link rel="stylesheet" href="css/reset.css">
@@ -38,22 +39,57 @@
       </div>
    </section>
    <!-- Quote  -->
-   <section class="container">
-      <blockquote class="quote-clients">
-         <p>
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolor obcaecati repellendus quasi neque!
-            Libero, aspernatur obcaecati."
-         </p>
-         <cite>Loren Lurem</cite>
-      </blockquote>
+   <section class="container" id="js-slideshow-container">
+      <ul id="js-slideshow">
+         <li>
+            <blockquote class="quote-clients">
+               <p>
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolor obcaecati repellendus quasi
+                  neque!
+                  Libero, aspernatur obcaecati."
+               </p>
+               <cite>Loren Lurem</cite>
+            </blockquote>
+         </li>
+         <li>
+            <blockquote class="quote-clients">
+               <p>
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita est nobis nostrum impedit,
+                  cupiditate exercitationem, saepe culpa unde omnis deserunt sunt asperiores labore, cumque ex facilis.
+                  Nisi, quis! Ipsam, officia!!!!"
+               </p>
+               <cite>Lorem Lore</cite>
+            </blockquote>
+         </li>
+         <li>
+            <blockquote class="quote-clients">
+               <p>
+                  !!! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam error eligendi sunt provident atque
+                  voluptatum doloremque perferendis praesentium et? Quam molestias necessitatibus dolorum! Sequi quam
+                  dignissimos corrupti facilis veniam! Odio.
+               </p>
+               <cite>Laro Lorem</cite>
+            </blockquote>
+         </li>
+      </ul>
+      <!-- <a class="prev">&#10094;</a>
+      <a class="next">&#10095;</a> -->
    </section>
    <!-- Portfolio  -->
    <section class="portfolio">
-      <div class="container">
-         <ul class="portfolio_list">
-            <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Retro Bick"></li>
-            <li class="grid-8"><img src="img/portfolio/city.jpg" alt="City Bike"></li>
-            <li class="grid-16"><img src="img/portfolio/sport.jpg" alt="Sport Bike"></li>
+      <div class="container" id="js-slideshow-container-portfolio">
+         <ul class="portfolio_list" id="js-slides-portfolio">
+            <li>
+               <div class="grid-8"><img src="img/portfolio/retro.jpg" alt="Retro Bick"></div>
+               <div class="grid-8"><img src="img/portfolio/city.jpg" alt="City Bike"></div>
+               <div class="grid-16"><img src="img/portfolio/sport.jpg" alt="Sport Bike"></div>
+            </li>
+            <li>
+               <div class="grid-8"><img src="img/portfolio/city.jpg" alt="City Bike"></div>
+               <div class="grid-8"><img src="img/portfolio/retro.jpg" alt="Retro Bick"></div>
+               <div class="grid-16"><img src="img/portfolio/sport.jpg" alt="Sport Bike"></div>
+            </li>
+
          </ul>
 
       </div>
@@ -105,6 +141,7 @@
          </div>
       </div>
    </footer>
+   <script src="JavaScript/script.js"></script>
 </body>
 
 </html>

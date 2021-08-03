@@ -232,7 +232,7 @@ img {
   background: #ffadad;
 }
 
-.portfolio_list li:last-child {
+.portfolio_list div:last-of-type {
   margin-top: 20px;
 }
 
