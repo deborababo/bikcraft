@@ -23,6 +23,7 @@ img {
   font-weight: bold;
   letter-spacing: 0.1em;
   border-radius: 5px;
+  transition: 0.5s ease;
 }
 .btn:hover {
   color: #fff;
@@ -95,6 +96,7 @@ img {
   font-size: 14px; /*  convém ser em em */
   line-height: 20px;
   padding: 10px 0; /*  para aumentar a área de contacto e facilitar o click */
+  transition: all 0.3s ease-out;
 }
 
 .header_menu ul li a:hover {
@@ -338,6 +340,7 @@ img {
   display: block;
   padding: 10px;
   border-radius: 5px;
+  transition: all 0.5s ease-out;
 }
 .footer-social-media ul li a:hover {
   border: 3px solid #fff;
