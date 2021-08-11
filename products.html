@@ -111,14 +111,23 @@
    <section class="quotation">
       <div class="container">
          <h2 class="subtitle">Quotation</h2>
-         <form id="form-quotation" class="form grid-8">
+         <form action="send.php" method="post" name="form" class="formphp form grid-8">
             <label for="name">Name</label>
-            <input type="text" id="name" placeholder="Your Name">
+            <input id="name" name="name" type="text">
             <label for="email">E-mail</label>
-            <input type="email" id="email" placeholder="bikcraft@bikcraft.com">
-            <label for="spec">Specification</label>
-            <textarea name="spec" id="spec" cols="30" rows="10" placeholder="Your text here..."></textarea>
-            <button class="btn" type="submit">Send</button>
+            <input id="email" name="email" type="text">
+            <label for="telephone">Telephone</label>
+            <input id="telephone" name="telephone" type="text">
+
+            <label class="not-show">If you are NOT a robot, leave it blank!</label>
+            <input type="text" class="not-show" name="leaveblank">
+            <label class="not-show">If you are NOT a robot, leave it blank!</label>
+            <input type="text" class="not-show" name="dontchange" value="http://">
+
+            <label for="mensagem">Specification</label>
+            <textarea name="mensagem" id="mensagem"></textarea>
+
+            <button class="btn" id="enviar" name="enviar" type="submit">Send</button>
          </form>
          <div class="contact-quotation grid-8">
             <h3>Contact</h3>

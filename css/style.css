@@ -13,6 +13,29 @@ img {
   max-width: 100%;
   border-radius: 5px;
 }
+
+/* Form */
+.formphp label.not-show,
+.formphp input.not-show {
+  display: none !important;
+}
+
+#form-erro span,
+#form-send span {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+#form-send {
+  color: #31aa39;
+}
+
+#form-erro {
+  color: #f64540;
+}
+
 .btn {
   border: 3px solid #ffadad;
   padding: 10px 30px;

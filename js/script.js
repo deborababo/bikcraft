@@ -43,3 +43,59 @@ Visibility.onVisible(function(){
     $(".anime-internal").addClass("animate__animated animate__fadeInDown");
 }, 1200);
 })
+
+
+
+// Form
+
+$('.formphp').on('submit', function() {
+	var emailContato = "bikcraft@general.bikcraft.com"; // write here you email (dummy email)
+
+	var that = $(this),
+			url = that.attr('action'),
+			type = that.attr('method'),
+			data = {};
+	
+	that.find('[name]').each(function(index, value) {
+		var that = $(this),
+				name = that.attr('name'),
+				value = that.val();
+				
+		data[name] = value;
+	});
+	
+	$.ajax({
+		url: url,
+		type: type,
+		data: data,
+		success: function(response) {
+		
+			if( $('[name="leaveblank"]').val().length != 0 ) {
+				$('.formphp').html("<div id='form-erro'></div>");
+				$('#form-erro').html("<span>Fail to send!</span><p>Please try again, or send an email directly to " + emailContato + " </p>")
+				.hide()
+				.fadeIn(1500, function() {
+				$('#form-erro');
+				});
+			} else {
+			
+				$('.formphp').html("<div id='form-send'></div>");
+				$('#form-send').html("<span>Message send!</span><p>As soon as possible I will contact you. Thank you!</p>")
+				.hide()
+				.fadeIn(1500, function() {
+				$('#form-send');
+				});
+			};
+		},
+		error: function(response) {
+			$('.formphp').html("<div id='form-erro'></div>");
+			$('#form-erro').html("<span>Fail to send!</span><p>Please try again, or send an email directly to " + emailContato + " </p>")
+			.hide()
+			.fadeIn(1500, function() {
+			$('#form-erro');  
+		});
+		}
+	});
+	
+	return false;
+});

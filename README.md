@@ -12,7 +12,8 @@ WebDesign course project by ORIGAMIDs
 - CSS
 - JavaScript
 - JQuery
-- PHP (to contact form)
+- Animation
+- PHPMailer
 
 ## ICONS
 
