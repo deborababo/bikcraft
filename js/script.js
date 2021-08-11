@@ -17,3 +17,29 @@ $(".rslides_portfolio").responsiveSlides({
   pager: true,           // Boolean: Show pager, true or false
   
 });
+
+Visibility.onVisible(function(){
+  setTimeout(function () {    
+    $(".introduction h1").addClass("animate__animated animate__fadeInDown");
+}, 400);
+ setTimeout(function () {    
+    $(".introduction blockquote").addClass("animate__animated animate__fadeInDown");
+}, 800);
+ setTimeout(function () {    
+    $(".introduction .btn").addClass("animate__animated animate__fadeInDown");
+}, 1200);
+ setTimeout(function () {    
+    $(".anime").addClass("animate__animated animate__fadeInDown");
+}, 1600);
+
+
+ setTimeout(function () {    
+    $(".introduction-internal h1").addClass("animate__animated animate__fadeInDown");
+}, 400);
+ setTimeout(function () {    
+    $(".introduction-internal p").addClass("animate__animated animate__fadeInDown");
+}, 800);
+ setTimeout(function () {    
+    $(".anime-internal").addClass("animate__animated animate__fadeInDown");
+}, 1200);
+})

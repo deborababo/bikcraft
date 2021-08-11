@@ -1,15 +1,18 @@
 # bikcraft
 
-WebDesign course project by ORIGAMID
+WebDesign course project by ORIGAMIDs
 
 ## Tasks
 
 - Do a project wireframe with 'customers' insights;
-- Use Figma to do the wireframe and initial approach:
-  - Colors and typography
+
+## 🚀 Technologies / practice
+
 - HTML
 - CSS
 - JavaScript
+- JQuery
+- PHP (to contact form)
 
 ## ICONS
 
