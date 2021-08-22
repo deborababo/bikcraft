@@ -20,3 +20,7 @@ WebDesign course project by ORIGAMIDs
 - :up: update
 - :beetle: bug correction
 - :checkered_flag: release
+
+## Some Project Images
+
+![Image My HomePage](img/preview/Bikcraft_home_full.png)
