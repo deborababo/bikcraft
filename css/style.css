@@ -834,7 +834,7 @@ img {
   height: 380px;
   background: url(/img/bg.jpg) no-repeat center;
   background-size: cover;
-  margin-top: 92px;
+  margin-top: 82px;
   text-align: center;
   padding-top: 80px;
 }
@@ -875,7 +875,7 @@ img {
 /*********************** Internal Introduction ********************/
 .introduction-internal {
   width: 100%;
-  margin-top: 92px;
+  margin-top: 82px;
   height: 160px;
   background-size: cover;
   text-align: center;
@@ -1348,29 +1348,6 @@ textarea::placeholder {
   margin-bottom: 20px;
 }
 /* Customers Opinion - carousel */
-#js-slideshow-container {
-  overflow: hidden;
-  list-style: none;
-  position: relative;
-  width: 100%;
-  height: 250px;
-  transition: left 0.5s ease-in;
-}
-
-blockquote {
-  overflow: hidden;
-  position: absolute;
-  padding: 60px 0;
-  top: 0;
-  left: 450px;
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  transition: opacity 0.5s ease-in;
-}
-blockquote + blockquote {
-  opacity: 0;
-}
 
 .rslides_portfolio {
   position: relative;

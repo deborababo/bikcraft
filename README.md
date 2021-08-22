@@ -10,7 +10,6 @@ WebDesign course project by ORIGAMIDs
 
 - HTML
 - CSS
-- JavaScript
 - JQuery
 - Animation
 - PHPMailer
