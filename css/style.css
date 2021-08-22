@@ -1,21 +1,10 @@
-/* ==========================================================================
-   Reset
-   ========================================================================== */
-/**
- * Remove anchor text-decoration
- */
 a {
   text-decoration: none;
 }
-
-/**
- * Remove list-style
- */
 ol,
 ul {
   list-style: none;
 }
-
 html,
 body,
 div,
@@ -53,7 +42,6 @@ main {
   border: 0;
   vertical-align: baseline;
 }
-
 h1,
 h2,
 h3,
@@ -64,44 +52,17 @@ p,
 a,
 ul {
   font-size: 1em;
-  font-weight: normal;
+  font-weight: 400;
 }
-
-/* Document
- * ========================================================================== */
-
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in
- *    IE on Windows Phone and in iOS.
- */
-
 html {
-  line-height: 1.15; /* 1 */
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
-
-/* Sections
- * ========================================================================== */
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Edge, Firefox, and Safari.
- */
-
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-
-/* Grouping content
- * ========================================================================== */
-
-/**
- * Remove the margin on nested lists in Chrome, Edge, IE, and Safari.
- */
-
 dl dl,
 dl ol,
 dl ul,
@@ -109,340 +70,143 @@ ol dl,
 ul dl {
   margin: 0;
 }
-
-/**
- * Remove the margin on nested lists in Edge 18- and IE.
- */
-
 ol ol,
 ol ul,
 ul ol,
 ul ul {
   margin: 0;
 }
-
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Correct the inheritance of border color in Firefox.
- * 3. Show the overflow in Edge 18- and IE.
- */
-
 hr {
-  box-sizing: content-box; /* 1 */
-  color: inherit; /* 2 */
-  height: 0; /* 1 */
-  overflow: visible; /* 3 */
+  box-sizing: content-box;
+  color: inherit;
+  height: 0;
+  overflow: visible;
 }
-
-/**
- * Add the correct display in IE.
- */
-
 main {
   display: block;
 }
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  font-size: 1em;
 }
-
-/* Text-level semantics
- * ========================================================================== */
-
-/**
- * Remove the gray background on active links in IE 10.
- */
-
 a {
   background-color: transparent;
 }
-
-/**
- * Add the correct text decoration in Edge 18-, IE, and Safari.
- */
-
 abbr[title] {
   text-decoration: underline;
   text-decoration: underline dotted;
 }
-
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
-
 b,
 strong {
   font-weight: bolder;
 }
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  font-size: 1em;
 }
-
-/**
- * Add the correct font size in all browsers.
- */
-
 small {
   font-size: 80%;
 }
-
-/* Embedded content
- * ========================================================================== */
-
-/**
- * Add the correct display in IE 9-.
- */
-
 audio,
 video {
   display: inline-block;
 }
-
-/**
- * Add the correct display in iOS 4-7.
- */
-
 audio:not([controls]) {
   display: none;
   height: 0;
 }
-
-/**
- * Remove the border on images within links in IE 10-.
- */
-
 img {
   border-style: none;
 }
-
-/**
- * Hide the overflow in IE.
- */
-
 svg:not(:root) {
   overflow: hidden;
 }
-
-/* Tabular data
- * ========================================================================== */
-
-/**
- * 1. Correct table border color inheritance in all Chrome, Edge, and Safari.
- * 2. Remove text indentation from table contents in Chrome, Edge, and Safari.
- */
-
 table {
-  border-color: inherit; /* 1 */
-  text-indent: 0; /* 2 */
+  border-color: inherit;
+  text-indent: 0;
 }
-
-/* Forms
- * ========================================================================== */
-
-/**
- * Remove the margin on controls in Safari.
- */
-
 button,
 input,
 select {
   margin: 0;
 }
-
-/**
- * 1. Show the overflow in IE.
- * 2. Remove the inheritance of text transform in Edge 18-, Firefox, and IE.
- */
-
 button {
-  overflow: visible; /* 1 */
-  text-transform: none; /* 2 */
+  overflow: visible;
+  text-transform: none;
 }
-
-/**
- * Correct the inability to style buttons in iOS and Safari.
- */
-
 button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
 }
-
-/**
- * Correct the padding in Firefox.
- */
-
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
-
-/**
- * Show the overflow in Edge 18- and IE.
- */
-
 input {
   overflow: visible;
 }
-
-/**
- * 1. Correct the text wrapping in Edge 18- and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- */
-
 legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  white-space: normal; /* 1 */
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  white-space: normal;
 }
-
-/**
- * 1. Add the correct display in Edge 18- and IE.
- * 2. Add the correct vertical alignment in Chrome, Edge, and Firefox.
- */
-
 progress {
-  display: inline-block; /* 1 */
-  vertical-align: baseline; /* 2 */
+  display: inline-block;
+  vertical-align: baseline;
 }
-
-/**
- * Remove the inheritance of text transform in Firefox.
- */
-
 select {
   text-transform: none;
 }
-
-/**
- * 1. Remove the margin in Firefox and Safari.
- * 2. Remove the default vertical scrollbar in IE.
- */
-
 textarea {
-  margin: 0; /* 1 */
-  overflow: auto; /* 2 */
+  margin: 0;
+  overflow: auto;
 }
-
-/**
- * 1. Add the correct box sizing in IE 10-.
- * 2. Remove the padding in IE 10-.
- */
-
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+  box-sizing: border-box;
+  padding: 0;
 }
-
-/**
- * 1. Correct the odd appearance in Chrome, Edge, and Safari.
- * 2. Correct the outline style in Safari.
- */
-
 [type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
 }
-
-/**
- * Correct the cursor style of increment and decrement buttons in Safari.
- */
-
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
   height: auto;
 }
-
-/**
- * Correct the text style of placeholders in Chrome, Edge, and Safari.
- */
-
 ::-webkit-input-placeholder {
   color: inherit;
   opacity: 0.54;
 }
-
-/**
- * Remove the inner padding in Chrome, Edge, and Safari on macOS.
- */
-
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-
-/**
- * 1. Correct the inability to style upload buttons in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
-
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  font: inherit;
 }
-
-/**
- * Remove the inner border and padding of focus outlines in Firefox.
- */
-
 ::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
-
-/**
- * Restore the focus outline styles unset by the previous rule in Firefox.
- */
-
 :-moz-focusring {
   outline: 1px dotted ButtonText;
 }
-
-/**
- * Remove the additional :invalid styles in Firefox.
- */
-
 :-moz-ui-invalid {
   box-shadow: none;
 }
-
-/* Interactive
- * ========================================================================== */
-
-/*
- * Add the correct display in Edge 18- and IE.
- */
-
 details {
   display: block;
 }
-
-/*
- * Add the correct styles in Edge 18-, IE, and Safari.
- */
-
 dialog {
-  background-color: white;
+  background-color: #fff;
   border: solid;
-  color: black;
+  color: #000;
   display: block;
   height: -moz-fit-content;
   height: -webkit-fit-content;
@@ -456,74 +220,42 @@ dialog {
   width: -webkit-fit-content;
   width: fit-content;
 }
-
 dialog:not([open]) {
   display: none;
 }
-
-/*
- * Add the correct display in all browsers.
- */
-
 summary {
   display: list-item;
 }
-
-/* Scripting
- * ========================================================================== */
-
-/**
- * Add the correct display in IE 9-.
- */
-
 canvas {
   display: inline-block;
 }
-
-/**
- * Add the correct display in IE.
- */
-
 template {
   display: none;
 }
-
-/* User interaction
- * ========================================================================== */
-
-/**
- * Add the correct display in IE 10-.
- */
-
 [hidden] {
   display: none;
 }
-
 *,
-*:before,
-*:after {
+:before,
+:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 .container {
   width: 960px;
   margin: 0 auto;
-  padding: 0px;
+  padding: 0;
   position: relative;
 }
-
 .container:after,
 .container:before {
   content: " ";
   display: table;
 }
-
 .container:after {
   clear: both;
 }
-
 .grid-1,
 .grid-2,
 .grid-3,
@@ -545,75 +277,57 @@ template {
   margin-left: 10px;
   margin-right: 10px;
 }
-
 .grid-1 {
   width: 40px;
 }
-
 .grid-2 {
   width: 100px;
 }
-
 .grid-3 {
   width: 160px;
 }
-
 .grid-4 {
   width: 220px;
 }
-
 .grid-5 {
   width: 280px;
 }
-
 .grid-6 {
   width: 340px;
 }
-
 .grid-7 {
   width: 400px;
 }
-
 .grid-8 {
   width: 460px;
 }
-
 .grid-9 {
   width: 520px;
 }
-
 .grid-10 {
   width: 580px;
 }
-
 .grid-11 {
   width: 640px;
 }
-
 .grid-12 {
   width: 700px;
 }
-
 .grid-13 {
   width: 760px;
 }
-
 .grid-14 {
   width: 820px;
 }
-
 .grid-15 {
   width: 880px;
 }
-
 .grid-16 {
   width: 940px;
 }
-
 .grid-1-3 {
   width: 300px;
 }
-/********************* Tablet - 768px ***********************/
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   .container {
     width: 768px;
@@ -670,8 +384,6 @@ template {
     width: 236px;
   }
 }
-
-/********************* Mobile and Small tablets - 768px ***********************/
 @media only screen and (max-width: 767px) {
   .container {
     width: 300px;
@@ -694,15 +406,13 @@ template {
   .grid-16,
   .grid-1-3 {
     width: 300px;
-    margin: 0 0 20px 0;
+    margin: 0 0 20px;
     float: none;
   }
 }
-/*************************** General Styles************************/
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
 p {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
@@ -713,13 +423,10 @@ img {
   max-width: 100%;
   border-radius: 5px;
 }
-
-/* Form */
 .formphp label.not-show,
 .formphp input.not-show {
   display: none !important;
 }
-
 #form-erro span,
 #form-send span {
   font-size: 18px;
@@ -727,15 +434,12 @@ img {
   margin-bottom: 10px;
   display: block;
 }
-
 #form-send {
   color: #31aa39;
 }
-
 #form-erro {
   color: #f64540;
 }
-
 .btn {
   border: 3px solid #ffadad;
   padding: 10px 30px;
@@ -743,7 +447,7 @@ img {
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 0.1em;
   border-radius: 5px;
   transition: 0.5s ease;
@@ -756,11 +460,10 @@ img {
   color: #000;
   border-color: #000;
 }
-
 .subtitle {
   font-size: 24px;
   line-height: 30px;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 0.1rem;
   color: #000;
   text-transform: uppercase;
@@ -778,7 +481,7 @@ img {
 .subtitle-internal {
   font-size: 24px;
   line-height: 30px;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 0.1rem;
   color: #000;
   text-transform: uppercase;
@@ -792,7 +495,6 @@ img {
   background: #000;
   margin: 8px 0;
 }
-/******************************* Header ***************************/
 .header {
   position: fixed;
   top: 0;
@@ -801,11 +503,9 @@ img {
   padding: 10px 0;
   z-index: 10;
 }
-
 .header_menu {
   text-align: right;
 }
-
 .header_menu ul li {
   display: inline-block;
   margin-left: 25px;
@@ -813,22 +513,20 @@ img {
 }
 .header_menu ul li a {
   color: #000;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-size: 14px; /*  convém ser em em */
+  font-size: 14px;
   line-height: 20px;
-  padding: 10px 0; /*  para aumentar a área de contacto e facilitar o click */
+  padding: 10px 0;
   transition: all 0.3s ease-out;
 }
-
 .header_menu ul li a:hover {
   color: #fff;
 }
 .header_menu ul li a.menu-active {
   color: #fff;
 }
-/******************************* Intro ****************************/
 .introduction {
   width: 100%;
   height: 380px;
@@ -838,14 +536,12 @@ img {
   text-align: center;
   padding-top: 80px;
 }
-
 .introduction h1 {
   font-size: 48px;
   color: #fff;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
 }
-
 .quote-external {
   max-width: 320px;
   margin: 0 auto;
@@ -855,7 +551,6 @@ img {
 .quote-external p {
   font-style: italic;
 }
-/******** Create line before and after quote ********/
 .quote-external p::before,
 .quote-external p::after {
   content: "";
@@ -863,16 +558,14 @@ img {
   width: 60px;
   height: 3px;
   background: #fff;
-  margin: 14px auto 10px auto;
+  margin: 14px auto 10px;
 }
-
 .quote-external cite {
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.1em;
 }
-/*********************** Internal Introduction ********************/
 .introduction-internal {
   width: 100%;
   margin-top: 82px;
@@ -884,7 +577,7 @@ img {
 }
 .introduction-internal h1 {
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
 }
 .introduction-internal h1::after {
@@ -893,11 +586,8 @@ img {
   width: 60px;
   height: 3px;
   background: #fff;
-  margin: 6px auto 10px auto;
+  margin: 6px auto 10px;
 }
-
-/**************************** Products ****************************/
-
 .products {
   padding: 60px 0;
 }
@@ -907,7 +597,7 @@ img {
   border-radius: 5px;
 }
 .products_list li h3 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
@@ -923,7 +613,7 @@ img {
   margin: 2px auto;
 }
 .products_list li p {
-  padding: 10px 20px 20px 20px;
+  padding: 10px 20px 20px;
 }
 .products_icon {
   background: #000;
@@ -941,33 +631,26 @@ img {
 .call p {
   margin-bottom: 20px;
 }
-
-/***************************** Portfolio **************************/
 .portfolio {
   width: 100%;
   background: #000;
   padding: 40px;
 }
-
 .portfolio .subtitle {
   color: #ffadad;
 }
-
 .portfolio .subtitle::after {
   background: #ffadad;
 }
-
 .portfolio_list div:last-of-type {
   margin-top: 20px;
 }
-
 .portfolio .call p {
   color: #fff;
 }
-/***************************** Quality **************************/
 .quality {
   padding: 60px 0;
-  overflow: auto; /* Clear-fix*/
+  overflow: auto;
 }
 .quality::after {
   content: "";
@@ -990,9 +673,8 @@ img {
   text-align: center;
   padding: 0 40px;
 }
-
 .quality-list li h3 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
@@ -1007,7 +689,6 @@ img {
   background: #000;
   margin: 6px auto;
 }
-/***************************** Break **************************/
 .break {
   width: 100%;
   height: 220px;
@@ -1019,32 +700,28 @@ img {
 .break .quote-external {
   max-width: 400px;
 }
-/***************************** Footer **************************/
 .footer {
   width: 100%;
   background: #000;
   color: #fff;
   padding: 20px 0;
 }
-
 .footer h3 {
   font-size: 18px;
   line-height: 25px;
-  font-weight: bold;
+  font-weight: 700;
   color: #ffadad;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
-
 .footer h3::after {
   content: "";
   display: block;
   width: 60px;
   height: 3px;
   background: #ffadad;
-  margin: 6px 0 12px 0;
+  margin: 6px 0 12px;
 }
-
 .footer-history {
   padding-right: 40px;
 }
@@ -1053,7 +730,6 @@ img {
   line-height: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-
 .footer-social-media ul li {
   display: inline-block;
   margin-right: 10px;
@@ -1073,8 +749,6 @@ img {
   background: #ffadad;
   padding: 20px;
 }
-
-/* Animations */
 .js .introduction h1,
 .js .introduction blockquote,
 .js .introduction .btn,
@@ -1084,15 +758,6 @@ img {
 .js .introduction-internal p {
   opacity: 0;
 }
-
-/* From website Animate */
-/*!
- * animate.css - https://animate.style/
- * Version - 4.1.1
- * Licensed under the MIT license - https://opensource.org/licenses/MIT
- *
- * Copyright (c) 2021 Animate.css
- */
 :root {
   --animate-duration: 1s;
   --animate-delay: 1s;
@@ -1106,14 +771,12 @@ img {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-
 @-webkit-keyframes fadeInDown {
   from {
     opacity: 0;
     -webkit-transform: translate3d(0, -20px, 0);
     transform: translate3d(0, -20px, 0);
   }
-
   to {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
@@ -1126,7 +789,6 @@ img {
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
-
   to {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
@@ -1141,7 +803,6 @@ img {
   background: url(/img/bg-sobre.jpg) no-repeat center;
   background-size: cover;
 }
-
 .mission-about {
   padding-top: 60px;
 }
@@ -1179,7 +840,7 @@ img {
   font-size: 36px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-weight: bold;
+  font-weight: 700;
   color: #fff;
   text-align: center;
   position: relative;
@@ -1193,9 +854,8 @@ img {
   width: 60px;
   height: 3px;
   background: #fff;
-  margin: 6px auto 8px auto;
+  margin: 6px auto 8px;
 }
-
 .product-info {
   background: #000;
   border-radius: 5px;
@@ -1212,7 +872,7 @@ img {
   text-transform: uppercase;
   font-size: 18px;
   line-height: 20px;
-  font-weight: bold;
+  font-weight: 700;
   float: left;
   width: 229px;
   height: 49px;
@@ -1223,11 +883,9 @@ img {
 .product-info ul li:nth-child(2) {
   margin-bottom: 2px;
 }
-
 .product-info ul li:nth-child(even) {
   margin-left: 2px;
 }
-/********************************* Quotation *****************************/
 .quotation {
   background: #000;
   width: 100%;
@@ -1251,7 +909,6 @@ img {
   line-height: 25px;
   margin-bottom: 4px;
 }
-
 .form input {
   display: block;
   width: 100%;
@@ -1265,7 +922,7 @@ img {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 input::placeholder {
-  color: white;
+  color: #fff;
 }
 .form textarea {
   display: block;
@@ -1281,23 +938,21 @@ input::placeholder {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 textarea::placeholder {
-  color: white;
+  color: #fff;
 }
 .form button {
   padding: 7px 40px;
   background: none;
 }
-
 .contact-quotation {
   color: #fff;
 }
-
 .contact-quotation h3 {
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
   color: #ffadad;
-  font-weight: bold;
+  font-weight: 700;
 }
 .contact-quotation span {
   display: block;
@@ -1305,7 +960,6 @@ textarea::placeholder {
   line-height: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-
 .contact-quotation span:nth-of-type(2) {
   margin-bottom: 40px;
 }
@@ -1339,16 +993,13 @@ textarea::placeholder {
   line-height: 25px;
   font-style: italic;
 }
-
 .quote-clients cite {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
   float: right;
   font-style: normal;
   margin-bottom: 20px;
 }
-/* Customers Opinion - carousel */
-
 .rslides_portfolio {
   position: relative;
   list-style: none;
@@ -1357,7 +1008,6 @@ textarea::placeholder {
   padding: 0;
   margin: 0;
 }
-
 .rslides_portfolio li {
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -1366,31 +1016,25 @@ textarea::placeholder {
   left: 0;
   top: 0;
 }
-
 .rslides_portfolio li:first-child {
   position: relative;
   display: block;
   float: left;
 }
-
 .rslides_portfolio img {
   display: block;
   height: auto;
-
   width: 100%;
   border: 0;
 }
-
 .rslides_tabs {
   text-align: center;
   margin-top: 14px;
 }
-
 .rslides_tabs li {
   display: inline;
   margin: 0 5px;
 }
-
 .rslides_tabs li a {
   display: inline-block;
   width: 12px;
@@ -1401,7 +1045,6 @@ textarea::placeholder {
   overflow: hidden;
   text-indent: -200px;
 }
-
 .rslides_tabs li a:hover,
 .rslides_tabs li.rslides_here a {
   background-color: #ffadad;
@@ -1412,12 +1055,9 @@ textarea::placeholder {
   background-size: cover;
   border-radius: 5px;
 }
-
-/********************************* Quotation *****************************/
 .contact {
   padding: 40px 0;
 }
-
 .contact-form {
   padding-right: 60px;
 }
@@ -1428,45 +1068,39 @@ textarea::placeholder {
   line-height: 25px;
   margin-bottom: 4px;
 }
-
 .contact-form input {
   display: block;
   width: 100%;
   border: 4px solid #ffadad;
   background: none;
-
   padding: 7px 10px;
   margin-bottom: 10px;
   outline: none;
   font-size: 14px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-
 .contact-form textarea {
   display: block;
   width: 100%;
   height: 140px;
   border: 4px solid #ffadad;
   background: none;
-
   padding: 7px 10px;
   margin-bottom: 20px;
   outline: none;
   font-size: 14px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-
 .contact-form button {
   padding: 7px 40px;
   background: none;
 }
-
 .contact-contacts h3 {
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
   color: #ffadad;
-  font-weight: bold;
+  font-weight: 700;
 }
 .contact-contacts span {
   display: block;
@@ -1474,7 +1108,6 @@ textarea::placeholder {
   line-height: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-
 .contact-contacts span:nth-of-type(even) {
   margin-bottom: 30px;
 }
@@ -1494,21 +1127,16 @@ textarea::placeholder {
 .contact-contacts ul li a:hover {
   border: 3px solid #000;
 }
-
 .contact-map {
   margin-bottom: 60px;
 }
-/********************* Tablet - 768px ***********************/
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-  /******************************* Quality Home ***************************/
-
   .quality::after {
     right: 66px;
   }
   .quality-list li {
     padding: 0 10px;
   }
-  /******************************* Footer ***************************/
   .footer-social-media ul li a {
     padding: 6px;
   }
@@ -1516,7 +1144,6 @@ textarea::placeholder {
     width: 26px;
     height: 26px;
   }
-  /**************************** Products ****************************/
   .product-item h2 {
     top: -150px;
     margin-bottom: -56px;
@@ -1537,20 +1164,16 @@ textarea::placeholder {
     left: 250px;
   }
 }
-
-/********************* Mobile ***********************/
 @media only screen and (max-width: 767px) {
   .call {
     padding-top: 10px;
   }
-
-  /******************************* Header ***************************/
   .header {
     position: relative;
     padding-bottom: 0;
   }
   .header img {
-    margin: 0 auto 10px auto;
+    margin: 0 auto 10px;
   }
   .header_menu {
     text-align: center;
@@ -1571,33 +1194,27 @@ textarea::placeholder {
   .header_menu ul li a.menu-active {
     border-color: #fff;
   }
-  /******************************* Quality Home ***************************/
   .quality::after {
     display: none;
   }
-  /******************************* Intro ****************************/
   .introduction {
     margin-top: 0;
     padding-top: 45px;
     background: url(/img/bg-mobile.jpg) no-repeat center;
     background-size: cover;
   }
-  /****************************** Internal Intro **************************/
   .introduction-internal {
-    margin-top: 0px;
+    margin-top: 0;
   }
-  /****************************** About **************************/
   .mission-about p {
     font-size: 14px;
     line-height: 20px;
-    padding-right: 0px;
+    padding-right: 0;
   }
   .mission-about ul li {
     font-size: 14px;
     line-height: 25px;
   }
-
-  /**************************** Products ****************************/
   .product-item h2 {
     top: -100px;
     margin-bottom: -68px;
@@ -1617,14 +1234,13 @@ textarea::placeholder {
     padding-top: 14px;
   }
   .form {
-    padding-right: 0px;
+    padding-right: 0;
   }
   .contact-quotation ul {
-    padding-right: 0px;
+    padding-right: 0;
   }
-  /**************************** Contact ****************************/
   .contact-form {
-    padding-right: 0px;
+    padding-right: 0;
     margin-bottom: 40px;
   }
   blockquote {
