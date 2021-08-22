@@ -530,7 +530,7 @@ img {
 .introduction {
   width: 100%;
   height: 380px;
-  background: #ffadad url(img/bg.jpg) no-repeat center;
+  background: #ffadad url(/img/bg.jpg) no-repeat center;
   background-size: cover;
   margin-top: 82px;
   text-align: center;
